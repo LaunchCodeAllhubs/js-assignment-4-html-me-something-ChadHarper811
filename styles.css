@@ -45,20 +45,10 @@ body {
 }
 
 .travel-images {
-    width: 100%;
-    max-width: 350px;
+    width: 350px;
     height: 300px;
     object-fit: cover;
     border-radius: 15px;
-    transition-property: max-width, height;
-    transition-delay: 1.5s;
-    transition-duration: 1s;
-}
-
-.travel-images:hover {
-    max-width: 1050px;
-    height: 100%;
-
 }
 
 .day-hash {
