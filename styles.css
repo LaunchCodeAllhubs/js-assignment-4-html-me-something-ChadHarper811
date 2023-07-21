@@ -41,6 +41,7 @@ body {
     gap: 20px;
     max-width: 1500px;
     padding: 20px 10px;
+
 }
 
 .travel-images {
@@ -49,6 +50,14 @@ body {
     height: 300px;
     object-fit: cover;
     border-radius: 15px;
+    transition-property: max-width, height;
+    transition-delay: 1.5s;
+    transition-duration: 1s;
+}
+
+.travel-images:hover {
+    max-width: 1050px;
+    height: 100%;
 
 }
 
