@@ -154,6 +154,7 @@ h2, p {
     border-radius: 10px;
   }
   #blog-list li {
+    list-style: none;
     background-color: var(--main-white);
     border-radius: 10px;
     margin-bottom: 20px;
