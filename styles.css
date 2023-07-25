@@ -5,6 +5,14 @@
     --main-gray: #38444d;
 }
 
+#mainHeading {
+  color:red;
+}
+
+.funParagraph {
+  color:green;
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 92px;
