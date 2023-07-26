@@ -42,10 +42,6 @@ header {
     color: var(--main-white);
 }
 
-footer {
-    background-color: var(--main-blue);
-    color: var(--main-white);
-}
 
 h1 {
     margin: 5px;
@@ -172,6 +168,8 @@ h2, p {
 
 
 footer {
+    background-color: var(--main-blue);
+    color: var(--main-white);
     position: absolute;
     left: 0;
     width: 100%;
