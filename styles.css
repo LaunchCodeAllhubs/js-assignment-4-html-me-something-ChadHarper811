@@ -126,9 +126,9 @@ h2, p {
     background-color: var(--main-gray);
   }
   
-  li.dropdown {
+  /* li.dropdown {
     display: inline-block;
-  }
+  } */
   
   .dropdown-content {
     display: none;
@@ -157,6 +157,7 @@ h2, p {
     background-color: var(--main-white);;
     border-radius: 10px;
   }
+  
   #blog-list li {
     list-style: none;
     background-color: var(--main-white);
@@ -173,9 +174,10 @@ footer {
     position: absolute;
     left: 0;
     width: 100%;
-    padding: 30px;
+    padding: 30px 0 30px;
     margin-top: 100px;
   }
+  
   footer p {
     margin: 10px;
     font-size: 20px;
